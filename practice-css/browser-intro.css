@@ -13,8 +13,9 @@ h1 {
 }
 
 h2 {
+	color:navy;
 	margin: 5px;
-	font-family: "cursive";
+	font-family: cursive;
 	background: linear-gradient(90deg,white,#ffefaf);
 
 }
