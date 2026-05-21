@@ -9,14 +9,13 @@ p.info {
 
 h1 {
 	color: white;
-	text-shadow: 1px 1px 4px navy;
+	text-shadow: 1px 1px 12px navy;
 }
 
 h2 {
-	border: solid 1px #3f3faf;
 	margin: 5px;
 	font-family: "cursive";
-	background: linear-gradient(white,#ffefaf)
+	background: linear-gradient(90deg,white,#ffefaf);
 
 }
 
