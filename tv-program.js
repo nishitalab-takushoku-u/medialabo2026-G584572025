@@ -1,14 +1,35 @@
 
 // 課題3-2 のプログラムはこの関数の中に記述すること
 function print(data) {
-
+  let x=0;
+  for(let n of data.list.g1){
+    x=x+1;
+    console.log('検索結果'+x+'件目');
+    console.log('・開始時刻：'+n.start_time);
+    console.log('・終了時刻:'+n.end_time);
+    console.log('・チャンネル:'+n.service.name);
+    console.log('・タイトル:'+n.title);
+    console.log('・サブタイトル:'+n.subtitle);
+    console.log('・番組説明:'+n.content);
+    console.log('・出演者:'+n.act);
+  }
 }
 
 // 課題5-1 の関数 printDom() はここに記述すること
 function printDom(data) {
-
+  let x=0;
+  for(let n of data.list.g1){
+    x=x+1;
+    console.log('検索結果'+x+'件目');
+    console.log('・開始時刻：'+n.start_time);
+    console.log('・終了時刻:'+n.end_time);
+    console.log('・チャンネル:'+n.service.name);
+    console.log('・タイトル:'+n.title);
+    console.log('・サブタイトル:'+n.subtitle);
+    console.log('・番組説明:'+n.content);
+    console.log('・出演者:'+n.act);
+  }
 }
-
 // 課題6-1 のイベントハンドラ登録処理は以下に記述
 
 
