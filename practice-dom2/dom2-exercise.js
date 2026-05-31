@@ -18,7 +18,7 @@ let gakka = [
 function show(){
 	let p=document.createElement('p');
 	p.textContent=campus.address; 
-	let s=document.querySelector('h2#addr'); 
+	let s=document.querySelector('h2#addr');
 	s.insertAdjacentElement('afterend',p); 
 
 	let u=document.createElement('ul');
