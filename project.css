@@ -11,13 +11,12 @@ label{
     font-size:larger;
 }
 h2{
-    color:aliceblue;
-    border:dashed aliceblue;
+    border-bottom:dotted aliceblue;
 }
-div{
+div#result{
     color:aliceblue;
-}
-li{
     line-height:2.0;
     background-color:rgb(0, 71, 95);
+    border:solid rgb(195, 0, 255);
+    border-radius:20px;
 }

@@ -25,7 +25,7 @@ function hantei() {
   
   // ここから: 正解判定する
   // 　　　　  正解/不正解のときのメッセージを表示する
-  if(kaisu<=2){
+  if(kaisu<=3){
     if(x===kotae){
       let seikai='正解です．おめでとう!';
       i.textContent=seikai;
@@ -36,7 +36,7 @@ function hantei() {
       let matigai2='まちがい．答えはもっと小さいですよ';
       i.textContent=matigai2;
     }
-  }else if(kaisu===3){
+  }else if(kaisu===4){
     let matigai='まちがい．残念でした答えは'+kotae+'です.';
     i.textContent=matigai;
   }else{
